@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    background-image: none;
+    color: white;
+}
+.order_form{
+    background-color: #1976d2;
+    box-shadow: 8px 8px 20px rgb(128, 128, 128);
+    top: 15%;
+    left: 25%;
+    position: absolute;
+    padding: 30px;
+}
+
+.order_form h2{
+    text-align: center;
+}
+
+.create{
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.form1{
+    margin-right: 50px;
+}
+
+.form2{
+    margin-left: 50px;
+}
+
+.form1 label, .form2 label{
+    display: table-cell;
+    float: left;
+    margin-top: 4px;
+    padding-right: 20px;
+}
+
+.form1 input{
+    height: 25px;
+    display: table-cell;
+    float: right;
+}
+
+.form2 input{
+    height: 25px;
+    display: table-cell;
+    float: right;
+}
+
+.logbutton{
+    width: 50%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: white;
+    color:  #1976d2;
+    border-radius: 25px;
+    margin-left: 25%;
+}
+
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.form1 select#productCategory {
+    margin-left: 25px;
+}
+
+.form1 select#shippingClass {
+    margin-left: 40px;
+}
+
+label{
+    color: white;
+}
